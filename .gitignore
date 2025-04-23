@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Dataset files - keep directory structure but not the actual images
+createx/data/trash_classification/train/**/*.jpg
+createx/data/trash_classification/val/**/*.jpg
+createx/data/trash_classification/test/**/*.jpg
+createx/data/trash_classification/trashnet/data/dataset-resized/
+
+# Keep the directory structure
+!createx/data/trash_classification/train/
+!createx/data/trash_classification/val/
+!createx/data/trash_classification/test/
+!createx/data/trash_classification/train/*/
+!createx/data/trash_classification/val/*/
+!createx/data/trash_classification/test/*/
+
+# Jupyter notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Editor files
+.vscode/
+.idea/
+*.swp 
